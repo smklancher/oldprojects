@@ -1,0 +1,2873 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<!-- Mirrored from projects.stephenklancher.com/index.php?/listing/tag/all by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Mar 2022 23:32:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<title>Stephen's Projects</title> 
+	<meta property="og:title" content="Stephen's Projects"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="index.php/listing/tag/all.html"/>
+    <meta property="og:image" content="images/defaultfbicon.jpg"/>
+    <meta property="og:site_name" content="Stephen's Projects"/>
+    <meta property="fb:admins" content="3302625"/>
+    <meta property="fb:page_id" content="166105630094157"/>
+    <meta property="og:description"
+          content="Website cataloging Stephen Klancher's projects over the years."/>
+
+<link rel="stylesheet" type="text/css" href="css/Blue.css"
+  title="Blue" />
+  <link rel="alternate stylesheet" type="text/css" href="css/Blue.css"
+	title="Blue" />
+  <link rel="alternate stylesheet" type="text/css" href="css/Kofax.css"
+	title="Kofax" />
+  <link rel="alternate stylesheet" type="text/css" href="css/Max_Payne.css"
+	title="Max_Payne" />
+  <link rel="alternate stylesheet" type="text/css" href="css/PHP.css"
+	title="PHP" />
+  <link rel="alternate stylesheet" type="text/css" href="css/Story_Run.css"
+	title="Story_Run" />
+  <link rel="alternate stylesheet" type="text/css" href="css/StructureOnly.css"
+	title="StructureOnly" />
+  <link rel="alternate stylesheet" type="text/css" href="css/PHP-logo.css"
+	title="PHP-logo" />
+
+
+<!-- Reference the theme's stylesheet on the Google CDN -->
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/smoothness/jquery-ui.css"
+        type="text/css" rel="stylesheet" />
+ 
+  <!-- Reference jQuery and jQuery UI from the CDN. Remember
+       that the order of these two elements is important -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>
+  
+  <!-- <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script> -->
+
+
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+  
+<script type="text/javascript" src="js/projectdb.js"></script> 
+ <script type="text/javascript"> 
+  $(document).ready(function() {
+	//$(".datepick").datepicker({ dateFormat: 'yy-mm-dd', changeYear: true });
+	
+	//read the style cookie
+	var cookie = readCookie("style");
+	//if the cookie isn't set default to auto... changing this to blue
+	//TODO: Cookie read to set default should be done server side to prevent flicker on longer pages
+	var style = cookie ? cookie : 'Blue';
+	//this sets the style including special handling of auto
+	setActiveStyleSheet(style);
+	
+	//set the dropdown
+	$("#StylePref").val(style);
+	
+  });
+</script> 
+
+</head> 
+<body>
+	
+
+<div id="container"> 
+	<div id="intro"> 
+		<div id="pageHeader"> 
+			<a href="index.html"><h1>Stephen's Projects</h1></a>
+		</div>
+		<div id="adminFunctions">
+								</div>
+		<div id="subHeader"> 
+			<span id="showAll"><a href="listing/index.html">Show All Projects</a></span>
+			<select name="StylePref" id="StylePref" onChange="setActiveStyleSheet($('#StylePref').val());">
+<option value="Auto">AutoStyle by Tag</option>
+<option value="Blue">Blue</option>
+<option value="Kofax">Kofax</option>
+<option value="Max_Payne">Max_Payne</option>
+<option value="PHP">PHP</option>
+<option value="Story_Run">Story_Run</option>
+<option value="StructureOnly">StructureOnly</option>
+<option value="PHP-logo">PHP-logo</option>
+</select>
+		</div> 
+	</div> 	<div id="cloud"> 
+		<ul id="cloudList">
+		<li class="tag_cloud"><a href="index.php/listing/tag/all.html" style="font-size: 20px">All Projects</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/DotNet.html" style="font-size: 20px" title="35 projects tagged DotNet">DotNet</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Kofax.html" style="font-size: 19px" title="30 projects tagged Kofax">Kofax</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Gaming.html" style="font-size: 17px" title="23 projects tagged Gaming">Gaming</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Featured.html" style="font-size: 15px" title="15 projects tagged Featured">Featured</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Source%20Included.html" style="font-size: 15px" title="14 projects tagged Source Included">Source Included</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/VB6.html" style="font-size: 15px" title="14 projects tagged VB6">VB6</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/web.html" style="font-size: 15px" title="13 projects tagged web">web</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Miscellaneous%20Utility.html" style="font-size: 14px" title="12 projects tagged Miscellaneous Utility">Miscellaneous Utility</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/KTM.html" style="font-size: 14px" title="11 projects tagged KTM">KTM</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Game%20Mod.html" style="font-size: 14px" title="10 projects tagged Game Mod">Game Mod</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Visual.html" style="font-size: 13px" title="7 projects tagged Visual">Visual</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Quake%203.html" style="font-size: 13px" title="6 projects tagged Quake 3">Quake 3</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Kofax%20Internal.html" style="font-size: 13px" title="6 projects tagged Kofax Internal">Kofax Internal</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Music.html" style="font-size: 13px" title="5 projects tagged Music">Music</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Counter-Strike.html" style="font-size: 13px" title="5 projects tagged Counter-Strike">Counter-Strike</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/PHP.html" style="font-size: 13px" title="5 projects tagged PHP">PHP</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Family.html" style="font-size: 13px" title="5 projects tagged Family">Family</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Video.html" style="font-size: 13px" title="5 projects tagged Video">Video</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Calculator.html" style="font-size: 12px" title="3 projects tagged Calculator">Calculator</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Quantified%20Self.html" style="font-size: 12px" title="3 projects tagged Quantified Self">Quantified Self</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/YouTube.html" style="font-size: 12px" title="3 projects tagged YouTube">YouTube</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Goldeneye.html" style="font-size: 12px" title="3 projects tagged Goldeneye">Goldeneye</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Script.html" style="font-size: 12px" title="3 projects tagged Script">Script</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/DVD.html" style="font-size: 12px" title="3 projects tagged DVD">DVD</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/School.html" style="font-size: 12px" title="2 projects tagged School">School</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/amBX.html" style="font-size: 12px" title="2 projects tagged amBX">amBX</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/CSS.html" style="font-size: 12px" title="2 projects tagged CSS">CSS</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Ragnarok%20Online.html" style="font-size: 12px" title="2 projects tagged Ragnarok Online">Ragnarok Online</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Doom.html" style="font-size: 12px" title="2 projects tagged Doom">Doom</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/OCGov.html" style="font-size: 12px" title="2 projects tagged OCGov">OCGov</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Story%20Run.html" style="font-size: 12px" title="2 projects tagged Story Run">Story Run</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Max%20Payne.html" style="font-size: 12px" title="2 projects tagged Max Payne">Max Payne</a></li>
+	<li class="tag_cloud"><a href="index.php/listing/tag/Android.html" style="font-size: 12px" title="2 projects tagged Android">Android</a></li>
+</ul> 	</div> 
+	<div id="projects">
+		<div id="showing"><h2>Showing All 94 Projects</h2></div>
+<div id="Future_Projects_On_Github" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/97/Future_Projects_On_Github.html"><span class="projectName">Future Projects On Github</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Any newer projects are on Github: <a href="https://github.com/smklancher">github.com/smklancher</a>.  This site persists only with reduced functionality...<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/97/Future_Projects_On_Github.html">
+		See more...</a> (1 link)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/97/Future_Projects_On_Github"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/97/Future_Projects_On_Github&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_97" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>		</div>
+		</div>
+<div id="AIR_Native_Extension_-_Install_Tracking" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/AIR_Native_Extension_-_Install_Tracking/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/95/AIR_Native_Extension_-_Install_Tracking.html"><span class="projectName">AIR Native Extension - Install Tracking</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Adobe AIR extension to capture the referrer used to get to the Play Store to install the app.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/95/AIR_Native_Extension_-_Install_Tracking.html">
+		See more...</a> (1 link, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/95/AIR_Native_Extension_-_Install_Tracking"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/95/AIR_Native_Extension_-_Install_Tracking&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_95" class="projectTags">
+			<a href="index.php/listing/tag/ActionScript.html" class="projectTag">ActionScript</a>			<a href="index.php/listing/tag/Android.html" class="projectTag">Android</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>		</div>
+		</div>
+<div id="Kofax_Mobile_Capture_Gift_Card_Extraction" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Kofax_Mobile_Capture_Gift_Card_Extraction/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/94/Kofax_Mobile_Capture_Gift_Card_Extraction.html"><span class="projectName">Kofax Mobile Capture Gift Card Extraction</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Gift card extraction feature of Kofax Mobile Capture app.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/94/Kofax_Mobile_Capture_Gift_Card_Extraction.html">
+		See more...</a> (2 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/94/Kofax_Mobile_Capture_Gift_Card_Extraction"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/94/Kofax_Mobile_Capture_Gift_Card_Extraction&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_94" class="projectTags">
+			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/KTM.html" class="projectTag">KTM</a>		</div>
+		</div>
+<div id="Kofax_Mobile_Driver_License" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Kofax_Mobile_Driver_License/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/93/Kofax_Mobile_Driver_License.html"><span class="projectName">Kofax Mobile Driver License 1.1</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Kofax Mobile Driver License<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/93/Kofax_Mobile_Driver_License.html">
+		See more...</a> (2 links)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/93/Kofax_Mobile_Driver_License"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/93/Kofax_Mobile_Driver_License&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_93" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/KTM.html" class="projectTag">KTM</a>		</div>
+		</div>
+<div id="Kofax_Mobile_Check_Deposit" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Kofax_Mobile_Check_Deposit/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/92/Kofax_Mobile_Check_Deposit.html"><span class="projectName">Kofax Mobile Check Deposit 1.1</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Kofax Mobile Check Deposit<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/92/Kofax_Mobile_Check_Deposit.html">
+		See more...</a> (2 links)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/92/Kofax_Mobile_Check_Deposit"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/92/Kofax_Mobile_Check_Deposit&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_92" class="projectTags">
+			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/KTM.html" class="projectTag">KTM</a>		</div>
+		</div>
+<div id="Kofax_Mobile_Bill_Pay_1.1" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Kofax_Mobile_Bill_Pay_1.1/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/91/Kofax_Mobile_Bill_Pay_1.html"><span class="projectName">Kofax Mobile Bill Pay 1.1</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Kofax Mobile Bill Pay<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/91/Kofax_Mobile_Bill_Pay_1.html">
+		See more...</a> (2 links)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/91/Kofax_Mobile_Bill_Pay_1.1"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/91/Kofax_Mobile_Bill_Pay_1.1&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_91" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/KTM.html" class="projectTag">KTM</a>		</div>
+		</div>
+<div id="Steam_Timeline" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Steam_Timeline/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/90/Steam_Timeline.html"><span class="projectName">Steam Timeline</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Dynamically generated timeline showing what games I've played, when, and how long.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/90/Steam_Timeline.html">
+		See more...</a> (1 link)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/90/Steam_Timeline"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/90/Steam_Timeline&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_90" class="projectTags">
+			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Quantified%20Self.html" class="projectTag">Quantified Self</a>			<a href="index.php/listing/tag/Steam.html" class="projectTag">Steam</a>			<a href="index.php/listing/tag/Visual.html" class="projectTag">Visual</a>		</div>
+		</div>
+<div id="amBX_Usability_Enhancements" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/89/amBX_Usability_Enhancements.html"><span class="projectName">amBX Usability Enhancements</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Scripts and configuration to improve amBX Gaming Lights<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/89/amBX_Usability_Enhancements.html">
+		See more...</a> (1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/89/amBX_Usability_Enhancements"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/89/amBX_Usability_Enhancements&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_89" class="projectTags">
+			<a href="index.php/listing/tag/amBX.html" class="projectTag">amBX</a>			<a href="index.php/listing/tag/Script.html" class="projectTag">Script</a>		</div>
+		</div>
+<div id="Refresh_Notification_Area" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/88/Refresh_Notification_Area.html"><span class="projectName">Refresh Notification Area</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Clears orphaned icons from the notification area (system tray).<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/88/Refresh_Notification_Area.html">
+		See more...</a> (2 files)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/88/Refresh_Notification_Area"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/88/Refresh_Notification_Area&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_88" class="projectTags">
+			<a href="index.php/listing/tag/C%2b%2b.html" class="projectTag">C++</a>			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>		</div>
+		</div>
+<div id="Join_Tiffs_by_Folder_Structure" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/87/Join_Tiffs_by_Folder_Structure.html"><span class="projectName">Join Tiffs by Folder Structure</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Batch script to use IrfanView to recursively create multipage tiffs from folders of single page tiffs.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/87/Join_Tiffs_by_Folder_Structure.html">
+		See more...</a> (1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/87/Join_Tiffs_by_Folder_Structure"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/87/Join_Tiffs_by_Folder_Structure&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_87" class="projectTags">
+			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>			<a href="index.php/listing/tag/Script.html" class="projectTag">Script</a>		</div>
+		</div>
+<div id="Notepad_Highlighting_for_KTM_Server_Logs" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Notepad_Highlighting_for_KTM_Server_Logs/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/86/Notepad_Highlighting_for_KTM_Server_Logs.html"><span class="projectName">Notepad++ Highlighting for KTM Server Logs</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Notepad++ highlighting for KTM Server Logs (both KTM_*.txt and Scheduler.txt)<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/86/Notepad_Highlighting_for_KTM_Server_Logs.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/86/Notepad_Highlighting_for_KTM_Server_Logs"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/86/Notepad_Highlighting_for_KTM_Server_Logs&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_86" class="projectTags">
+			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>		</div>
+		</div>
+<div id="Copy_Disc_on_Insert" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Copy_Disc_on_Insert/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/83/Copy_Disc_on_Insert.html"><span class="projectName">Copy Disc on Insert</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+When you need to make a local copy of many data discs: Select a destination, then just insert a new disc every time the previous disc is ejected.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/83/Copy_Disc_on_Insert.html">
+		See more...</a> (2 files, 2 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/83/Copy_Disc_on_Insert"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/83/Copy_Disc_on_Insert&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_83" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>		</div>
+		</div>
+<div id="Window_Focus_Tracker" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Window_Focus_Tracker/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/84/Window_Focus_Tracker.html"><span class="projectName">Window Focus Tracker</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Tracks and logs which window has focus.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/84/Window_Focus_Tracker.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/84/Window_Focus_Tracker"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/84/Window_Focus_Tracker&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_84" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>		</div>
+		</div>
+<div id="Zeo_Sleep_Monitor" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Zeo_Sleep_Monitor/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/85/Zeo_Sleep_Monitor.html"><span class="projectName">Zeo Sleep Monitor</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Adaptive alarm based on live sleep stage data recorded by Zeo Mobile for Android.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/85/Zeo_Sleep_Monitor.html">
+		See more...</a> (2 links, 1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/85/Zeo_Sleep_Monitor"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/85/Zeo_Sleep_Monitor&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_85" class="projectTags">
+			<a href="index.php/listing/tag/Android.html" class="projectTag">Android</a>			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Quantified%20Self.html" class="projectTag">Quantified Self</a>			<a href="index.php/listing/tag/Sleep.html" class="projectTag">Sleep</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>		</div>
+		</div>
+<div id="KTM_Published_Project_Cleanup" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/81/KTM_Published_Project_Cleanup.html"><span class="projectName">KTM Published Project Cleanup</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Cleans up old KTM projects left behind by previous publishes of Kofax Capture batch classes.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/81/KTM_Published_Project_Cleanup.html">
+		See more...</a></div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/81/KTM_Published_Project_Cleanup"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/81/KTM_Published_Project_Cleanup&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_81" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/KTM.html" class="projectTag">KTM</a>		</div>
+		</div>
+<div id="XML-DTD-XSD_To_Class" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/82/XML-DTD-XSD_To_Class.html"><span class="projectName">XML-DTD-XSD To Class</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Script to create a class to hold an object described by XML, DTD, or XSD.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/82/XML-DTD-XSD_To_Class.html">
+		See more...</a> (1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/82/XML-DTD-XSD_To_Class"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/82/XML-DTD-XSD_To_Class&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_82" class="projectTags">
+			<a href="index.php/listing/tag/Powershell.html" class="projectTag">Powershell</a>			<a href="index.php/listing/tag/Script.html" class="projectTag">Script</a>		</div>
+		</div>
+<div id="Universal_Sound_to_Light" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/80/Universal_Sound_to_Light.html"><span class="projectName">Universal Sound to Light</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Orchestrates colored lights from any sound source using the amBX SDK.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/80/Universal_Sound_to_Light.html">
+		See more...</a> (1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/80/Universal_Sound_to_Light"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/80/Universal_Sound_to_Light&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_80" class="projectTags">
+			<a href="index.php/listing/tag/amBX.html" class="projectTag">amBX</a>			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Music.html" class="projectTag">Music</a>			<a href="index.php/listing/tag/Visual.html" class="projectTag">Visual</a>		</div>
+		</div>
+<div id="SalesForceMonitor" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/SalesForceMonitor/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/79/SalesForceMonitor.html"><span class="projectName">SalesForceMonitor</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+A system tray utility which uses Growl notifications for SalesForce cases which need attention.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/79/SalesForceMonitor.html">
+		See more...</a> (1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/79/SalesForceMonitor"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/79/SalesForceMonitor&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_79" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/Kofax%20Internal.html" class="projectTag">Kofax Internal</a>		</div>
+		</div>
+<div id="Reset_KTM_Validation_Viewer" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/78/Reset_KTM_Validation_Viewer.html"><span class="projectName">Reset KTM Validation Viewer</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+The viewer that can be docked or floated in KTM Validation can disappear under certain conditions and this utility will reset and, to an extent, prevent future occurrences of this.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/78/Reset_KTM_Validation_Viewer.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/78/Reset_KTM_Validation_Viewer"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/78/Reset_KTM_Validation_Viewer&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_78" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/KTM.html" class="projectTag">KTM</a>		</div>
+		</div>
+<div id="Combined_Logging" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/77/Combined_Logging.html"><span class="projectName">Combined Logging</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Combines logs from several sources making it easier to analyze connections between them.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/77/Combined_Logging.html">
+		See more...</a> (1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/77/Combined_Logging"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/77/Combined_Logging&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_77" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>		</div>
+		</div>
+<div id="LogParentProcess" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/76/LogParentProcess.html"><span class="projectName">LogParentProcess</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Small utility meant to be called in script from other programs.  It logs the name as well as the virtual and private bytes of the program which called it. <p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/76/LogParentProcess.html">
+		See more...</a> (1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/76/LogParentProcess"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/76/LogParentProcess&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_76" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>		</div>
+		</div>
+<div id="QAID_Migration" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/75/QAID_Migration.html"><span class="projectName">QAID Migration</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Tool to aid in migrating KB articles from in-house database to SalesForce.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/75/QAID_Migration.html">
+		See more...</a></div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/75/QAID_Migration"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/75/QAID_Migration&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_75" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/Kofax%20Internal.html" class="projectTag">Kofax Internal</a>		</div>
+		</div>
+<div id="Kofax_License_Name_Fix" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Kofax_License_Name_Fix/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/74/Kofax_License_Name_Fix.html"><span class="projectName">Kofax License Name Fix</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+This utility will restore the proper names of KTM licenses after a Kofax Capture license reset.  (Xtrata Pro => KTM)<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/74/Kofax_License_Name_Fix.html">
+		See more...</a> (1 file, 2 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/74/Kofax_License_Name_Fix"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/74/Kofax_License_Name_Fix&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_74" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/KTM.html" class="projectTag">KTM</a>		</div>
+		</div>
+<div id="Capture_System_Chart" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Capture_System_Chart/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/73/Capture_System_Chart.html"><span class="projectName">Capture System Chart</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Shows status of batches, documents, and pages in a Kofax Capture system in the form of a pie chart.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/73/Capture_System_Chart.html">
+		See more...</a> (1 link, 2 files, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/73/Capture_System_Chart"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/73/Capture_System_Chart&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_73" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>		</div>
+		</div>
+<div id="Star_Warped_Scrapped_Scripts" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Star_Warped_Scrapped_Scripts/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/67/Star_Warped_Scrapped_Scripts.html"><span class="projectName">Star Warped Scrapped Scripts</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+From the Star Wars parody game Star Warped, the Scrapped Scripts show how Star Wars would have looked if written by Seinfeld, Spike Lee, Tarantino, or Woody Allen. <p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/67/Star_Warped_Scrapped_Scripts.html">
+		See more...</a> (1 link, 15 files, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/67/Star_Warped_Scrapped_Scripts"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/67/Star_Warped_Scrapped_Scripts&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_67" class="projectTags">
+			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Star%20Wars.html" class="projectTag">Star Wars</a>			<a href="index.php/listing/tag/Video.html" class="projectTag">Video</a>			<a href="index.php/listing/tag/YouTube.html" class="projectTag">YouTube</a>		</div>
+		</div>
+<div id="MediaMoment" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/2/MediaMoment.html"><span class="projectName">MediaMoment</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Site to track what you watch, heavily centered around the Browser Extension that connects your viewing history to IMDb and other movie sites.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/2/MediaMoment.html">
+		See more...</a> (3 links)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/2/MediaMoment"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/2/MediaMoment&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_2" class="projectTags">
+			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/PHP.html" class="projectTag">PHP</a>			<a href="index.php/listing/tag/Quantified%20Self.html" class="projectTag">Quantified Self</a>			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="Procmon_Augmented_KTM" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/36/Procmon_Augmented_KTM.html"><span class="projectName">Procmon Augmented KTM</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Injects code into Kofax Transformation Modules projects to log detailed information to Sysinternals Process Monitor.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/36/Procmon_Augmented_KTM.html">
+		See more...</a></div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/36/Procmon_Augmented_KTM"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/36/Procmon_Augmented_KTM&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_36" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/KTM.html" class="projectTag">KTM</a>		</div>
+		</div>
+<div id="Projects_Database" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/1/Projects_Database.html"><span class="projectName">Projects Database</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Website cataloging Stephen Klancher's projects over the years.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/1/Projects_Database.html">
+		See more...</a> (3 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/1/Projects_Database"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/1/Projects_Database&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_1" class="projectTags">
+			<a href="index.php/listing/tag/ajax.html" class="projectTag">ajax</a>			<a href="index.php/listing/tag/CodeIgniter.html" class="projectTag">CodeIgniter</a>			<a href="index.php/listing/tag/CSS.html" class="projectTag">CSS</a>			<a href="index.php/listing/tag/javascript.html" class="projectTag">javascript</a>			<a href="index.php/listing/tag/jQuery.html" class="projectTag">jQuery</a>			<a href="index.php/listing/tag/PHP.html" class="projectTag">PHP</a>			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="KTM_Oracle_Test" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/KTM_Oracle_Test/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/22/KTM_Oracle_Test.html"><span class="projectName">KTM Oracle Test</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Diagnostic tool for testing Oracle tables and views with Kofax Transformation Modules.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/22/KTM_Oracle_Test.html">
+		See more...</a> (2 files, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/22/KTM_Oracle_Test"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/22/KTM_Oracle_Test&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_22" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/KTM.html" class="projectTag">KTM</a>			<a href="index.php/listing/tag/Oracle.html" class="projectTag">Oracle</a>		</div>
+		</div>
+<div id="KTM_Project_Hacker" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/KTM_Project_Hacker/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/69/KTM_Project_Hacker.html"><span class="projectName">KTM Project Hacker</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Sample built against Kofax Transformation Toolkit 5.0 which lists databases used by a KTT/KTM project.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/69/KTM_Project_Hacker.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/69/KTM_Project_Hacker"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/69/KTM_Project_Hacker&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_69" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/KTM.html" class="projectTag">KTM</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>		</div>
+		</div>
+<div id="Clipboard_Monitor" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Clipboard_Monitor/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/68/Clipboard_Monitor.html"><span class="projectName">Clipboard Monitor</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Monitors the data types of anything copied to the clipboard.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/68/Clipboard_Monitor.html">
+		See more...</a> (2 files, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/68/Clipboard_Monitor"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/68/Clipboard_Monitor&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_68" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>		</div>
+		</div>
+<div id="PHP_Class_Dependency_Map" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/PHP_Class_Dependency_Map/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/21/PHP_Class_Dependency_Map.html"><span class="projectName">PHP Class Dependency Map</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Produces a visual representation of the connections between classes in PHP code.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/21/PHP_Class_Dependency_Map.html">
+		See more...</a> (1 link, 1 file, 2 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/21/PHP_Class_Dependency_Map"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/21/PHP_Class_Dependency_Map&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_21" class="projectTags">
+			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/PHP.html" class="projectTag">PHP</a>			<a href="index.php/listing/tag/Visual.html" class="projectTag">Visual</a>			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="KTM_Validation_Control_Finder" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/KTM_Validation_Control_Finder/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/19/KTM_Validation_Control_Finder.html"><span class="projectName">KTM Validation Control Finder</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Recovers inaccessible controls from Validation Forms in Kofax Transformation Modules 4.5.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/19/KTM_Validation_Control_Finder.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/19/KTM_Validation_Control_Finder"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/19/KTM_Validation_Control_Finder&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_19" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/KTM.html" class="projectTag">KTM</a>			<a href="index.php/listing/tag/LINQ.html" class="projectTag">LINQ</a>		</div>
+		</div>
+<div id="Unique_Line_Diffs" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/17/Unique_Line_Diffs.html"><span class="projectName">Unique Line Diffs</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Utility to compare which lines are in both files or only one.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/17/Unique_Line_Diffs.html">
+		See more...</a> (1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/17/Unique_Line_Diffs"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/17/Unique_Line_Diffs&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_17" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>		</div>
+		</div>
+<div id="CopyDummyFiles" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/CopyDummyFiles/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/14/CopyDummyFiles.html"><span class="projectName">CopyDummyFiles</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Copies the contents of a directory as zero-byte files to be able to make a zero-memory copy of folder structures.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/14/CopyDummyFiles.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/14/CopyDummyFiles"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/14/CopyDummyFiles&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_14" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>		</div>
+		</div>
+<div id="OpenRandomFile" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/10/OpenRandomFile.html"><span class="projectName">OpenRandomFile</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Given a folder and list of extensions, allows opening random files.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/10/OpenRandomFile.html">
+		See more...</a> (1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/10/OpenRandomFile"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/10/OpenRandomFile&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_10" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>		</div>
+		</div>
+<div id="LogSquish" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/LogSquish/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/8/LogSquish.html"><span class="projectName">LogSquish</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Monitors a log folder to compress and move the log files when they hit a certain size.  <p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/8/LogSquish.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/8/LogSquish"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/8/LogSquish&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_8" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>		</div>
+		</div>
+<div id="Batch_Image_Path" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/60/Batch_Image_Path.html"><span class="projectName">Batch Image Path</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Lists all of the batches in a Capture installation and a double click opens the image path.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/60/Batch_Image_Path.html">
+		See more...</a> (1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/60/Batch_Image_Path"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/60/Batch_Image_Path&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_60" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>		</div>
+		</div>
+<div id="Docs_From_File_-_Scan_Module_Custom_Panel" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/23/Docs_From_File_-_Scan_Module_Custom_Panel.html"><span class="projectName">Docs From File - Scan Module Custom Panel</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Adds a menu in the scan module that separates pages into documents based on their original filename, allowing for splitting multi-page tiffs in the same batch back into separate documents.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/23/Docs_From_File_-_Scan_Module_Custom_Panel.html">
+		See more...</a> (1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/23/Docs_From_File_-_Scan_Module_Custom_Panel"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/23/Docs_From_File_-_Scan_Module_Custom_Panel&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_23" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/Kofax%20Customization.html" class="projectTag">Kofax Customization</a>		</div>
+		</div>
+<div id="MDB_Corruption_Checker" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/MDB_Corruption_Checker/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/16/MDB_Corruption_Checker.html"><span class="projectName">MDB Corruption Checker</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Open all Kofax Capture mdb files on both the server and local workstation and lists any that throw errors.  Also provides a command line accessible alternative to DBUtil for running a Repair and Compact on Kofax Capture mdb files. <p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/16/MDB_Corruption_Checker.html">
+		See more...</a> (2 files, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/16/MDB_Corruption_Checker"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/16/MDB_Corruption_Checker&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_16" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>		</div>
+		</div>
+<div id="BatchClassRescue" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/BatchClassRescue/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/15/BatchClassRescue.html"><span class="projectName">BatchClassRescue</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Creates importable cab files from published Batch Classes in the PubTypes folder, including in recovery scenarios where the database is unavailable.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/15/BatchClassRescue.html">
+		See more...</a> (2 files, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/15/BatchClassRescue"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/15/BatchClassRescue&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_15" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>		</div>
+		</div>
+<div id="KC_Connection_Lister" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/KC_Connection_Lister/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/12/KC_Connection_Lister.html"><span class="projectName">KC Connection Lister</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Correlates license and database connections to show systems that have modules open in a Kofax Capture installation.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/12/KC_Connection_Lister.html">
+		See more...</a> (2 files, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/12/KC_Connection_Lister"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/12/KC_Connection_Lister&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_12" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>		</div>
+		</div>
+<div id="Kofax_Extended_License_Utility_KELU" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/11/Kofax_Extended_License_Utility_KELU.html"><span class="projectName">Kofax Extended License Utility (KELU)</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Unofficial, and Kofax-Internal-Only, replacement for the Kofax Capture license utility.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/11/Kofax_Extended_License_Utility_KELU.html">
+		See more...</a></div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/11/Kofax_Extended_License_Utility_KELU"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/11/Kofax_Extended_License_Utility_KELU&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_11" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/Kofax%20Internal.html" class="projectTag">Kofax Internal</a>		</div>
+		</div>
+<div id="Filename_Hierarchy" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Filename_Hierarchy/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/24/Filename_Hierarchy.html"><span class="projectName">Filename Hierarchy</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Recursively copies files from subfolders to the base folder while appending the folder names to the file name.  The result is that a set of files in many subfolders becomes a set of files in one folder with more descriptive names.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/24/Filename_Hierarchy.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/24/Filename_Hierarchy"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/24/Filename_Hierarchy&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_24" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>		</div>
+		</div>
+<div id="Use_My_Volume" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/25/Use_My_Volume.html"><span class="projectName">Use My Volume</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Kofax-Internal-Only test utility which allows using an arbitrary amount of volume of any Kofax volume license.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/25/Use_My_Volume.html">
+		See more...</a></div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/25/Use_My_Volume"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/25/Use_My_Volume&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_25" class="projectTags">
+			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/Kofax%20Internal.html" class="projectTag">Kofax Internal</a>		</div>
+		</div>
+<div id="MediaMoment.NET" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/9/MediaMoment.html"><span class="projectName">MediaMoment.NET</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Abandoned .NET version of the guts of my movie site.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/9/MediaMoment.html">
+		See more...</a></div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/9/MediaMoment.NET"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/9/MediaMoment.NET&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_9" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="CaptureCabExplorer" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/CaptureCabExplorer/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/7/CaptureCabExplorer.html"><span class="projectName">CaptureCabExplorer</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Exposes aspects of the internal structure of Kofax Capture exported cab files, KTM xdc documents, and KTM fpr Projects.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/7/CaptureCabExplorer.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/7/CaptureCabExplorer"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/7/CaptureCabExplorer&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_7" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>		</div>
+		</div>
+<div id="Max_Payne_2_Story_Run" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Max_Payne_2_Story_Run/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/5/Max_Payne_2_Story_Run.html"><span class="projectName">Max Payne 2 Story Run</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Speed runs cut out any moments that can be skipped, often leaving little or none of a game's story. This Story Run attempts the opposite, speeding up the gameplay and focusing only on dialogue and story moments.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/5/Max_Payne_2_Story_Run.html">
+		See more...</a> (2 links, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/5/Max_Payne_2_Story_Run"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/5/Max_Payne_2_Story_Run&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_5" class="projectTags">
+			<a href="index.php/listing/tag/DVD.html" class="projectTag">DVD</a>			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Max%20Payne.html" class="projectTag">Max Payne</a>			<a href="index.php/listing/tag/Story%20Run.html" class="projectTag">Story Run</a>			<a href="index.php/listing/tag/Video.html" class="projectTag">Video</a>			<a href="index.php/listing/tag/YouTube.html" class="projectTag">YouTube</a>		</div>
+		</div>
+<div id="HackHackHack" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/35/HackHackHack.html"><span class="projectName">HackHackHack</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Injected code via .NET Reflector to expose super-hidden string decryption methods, thereby breaking string obfuscation.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/35/HackHackHack.html">
+		See more...</a></div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/35/HackHackHack"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/35/HackHackHack&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_35" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>		</div>
+		</div>
+<div id="TechHELP" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/TechHELP/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/72/TechHELP.html"><span class="projectName">TechHELP</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Tim's project with my contributions which made case management easier in Kofax Support prior to the move to SalesForce.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/72/TechHELP.html">
+		See more...</a> (1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/72/TechHELP"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/72/TechHELP&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_72" class="projectTags">
+			<a href="index.php/listing/tag/DotNet.html" class="projectTag">DotNet</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/Kofax%20Internal.html" class="projectTag">Kofax Internal</a>		</div>
+		</div>
+<div id="CaptureCabTool" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/CaptureCabTool/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/6/CaptureCabTool.html"><span class="projectName">CaptureCabTool</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Allows importing Kofax Capture cab files by stripping out custom components (custom modules, workflow agents, release scripts).<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/6/CaptureCabTool.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/6/CaptureCabTool"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/6/CaptureCabTool&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_6" class="projectTags">
+			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="KfxKB_Improved" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/71/KfxKB_Improved.html"><span class="projectName">KfxKB Improved</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Userscript for Firefox-Greasemonkey/Chrome which adds links to the Kofax Knowledgebase site to improve usability.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/71/KfxKB_Improved.html">
+		See more...</a></div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/71/KfxKB_Improved"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/71/KfxKB_Improved&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_71" class="projectTags">
+			<a href="index.php/listing/tag/Kofax.html" class="projectTag">Kofax</a>			<a href="index.php/listing/tag/Kofax%20Internal.html" class="projectTag">Kofax Internal</a>		</div>
+		</div>
+<div id="Max_Payne_Story_Run" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Max_Payne_Story_Run/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/4/Max_Payne_Story_Run.html"><span class="projectName">Max Payne Story Run</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Speed runs cut out any moments that can be skipped, often leaving little or none of a game's story. This Story Run attempts the opposite, speeding up the gameplay and focusing only on dialogue and story moments.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/4/Max_Payne_Story_Run.html">
+		See more...</a> (2 links, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/4/Max_Payne_Story_Run"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/4/Max_Payne_Story_Run&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_4" class="projectTags">
+			<a href="index.php/listing/tag/DVD.html" class="projectTag">DVD</a>			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Max%20Payne.html" class="projectTag">Max Payne</a>			<a href="index.php/listing/tag/Story%20Run.html" class="projectTag">Story Run</a>			<a href="index.php/listing/tag/Video.html" class="projectTag">Video</a>			<a href="index.php/listing/tag/YouTube.html" class="projectTag">YouTube</a>		</div>
+		</div>
+<div id="Eyedentity_Design" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Eyedentity_Design/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/45/Eyedentity_Design.html"><span class="projectName">Eyedentity Design</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Eye-themed website design.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/45/Eyedentity_Design.html">
+		See more...</a> (1 link, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/45/Eyedentity_Design"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/45/Eyedentity_Design&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_45" class="projectTags">
+			<a href="index.php/listing/tag/Visual.html" class="projectTag">Visual</a>			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="Genreius" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Genreius/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/39/Genreius.html"><span class="projectName">Genreius</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Uses the Last.FM API to create genre-based playlists with mp3s on your local system.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/39/Genreius.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/39/Genreius"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/39/Genreius&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_39" class="projectTags">
+			<a href="index.php/listing/tag/Music.html" class="projectTag">Music</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="Ragnarok_Online_store" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Ragnarok_Online_store/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/43/Ragnarok_Online_store.html"><span class="projectName">Ragnarok Online store</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+This was a website that parsed the logs of bots in Ragnarok Online to dynamically show status and inventory.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/43/Ragnarok_Online_store.html">
+		See more...</a> (1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/43/Ragnarok_Online_store"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/43/Ragnarok_Online_store&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_43" class="projectTags">
+			<a href="index.php/listing/tag/CSS.html" class="projectTag">CSS</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/PHP.html" class="projectTag">PHP</a>			<a href="index.php/listing/tag/Ragnarok%20Online.html" class="projectTag">Ragnarok Online</a>		</div>
+		</div>
+<div id="SyncFileAndXLS" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/SyncFileAndXLS/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/18/SyncFileAndXLS.html"><span class="projectName">SyncFileAndXLS</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Utility to minimize human intervention in correction discrepancies between file names and an XLS export of a database.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/18/SyncFileAndXLS.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/18/SyncFileAndXLS"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/18/SyncFileAndXLS&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_18" class="projectTags">
+			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/OCGov.html" class="projectTag">OCGov</a>			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="CreateDummyFiles" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/CreateDummyFiles/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/13/CreateDummyFiles.html"><span class="projectName">CreateDummyFiles</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Recreates the contents of a directory as zero-byte files from an HTML directory list to be able to make a zero-memory copy of folder structures.  Superseded by a simpler utility for the same purpose: <a href="project/id/14/CopyDummyFiles.html">CopyDummyFiles</a>.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/13/CreateDummyFiles.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/13/CreateDummyFiles"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/13/CreateDummyFiles&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_13" class="projectTags">
+			<a href="index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>			<a href="index.php/listing/tag/OCGov.html" class="projectTag">OCGov</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="BarbaraReid.org" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/BarbaraReid.org/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/3/BarbaraReid.html"><span class="projectName">BarbaraReid.org</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Website showcasing the art of Bakersfield artist Barbara Reid.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/3/BarbaraReid.html">
+		See more...</a> (2 links, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/3/BarbaraReid.org"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/3/BarbaraReid.org&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_3" class="projectTags">
+			<a href="index.php/listing/tag/Family.html" class="projectTag">Family</a>			<a href="index.php/listing/tag/PHP.html" class="projectTag">PHP</a>			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="Huntar_Weapon" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Huntar_Weapon/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/65/Huntar_Weapon.html"><span class="projectName">Huntar Weapon</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Outdated utility to calculate various DPS, AP, hit, and critical stats relevant to Hunters in World of Warcraft.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/65/Huntar_Weapon.html">
+		See more...</a> (2 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/65/Huntar_Weapon"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/65/Huntar_Weapon&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_65" class="projectTags">
+			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>			<a href="index.php/listing/tag/World%20of%20Warcraft.html" class="projectTag">World of Warcraft</a>		</div>
+		</div>
+<div id="Greatest_Mario_Mix_Ever" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Greatest_Mario_Mix_Ever/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/38/Greatest_Mario_Mix_Ever.html"><span class="projectName">Greatest Mario Mix Ever</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+The sole result of playing with Fruity Loops: Music built with Mario sounds.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/38/Greatest_Mario_Mix_Ever.html">
+		See more...</a> (2 files)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/38/Greatest_Mario_Mix_Ever"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/38/Greatest_Mario_Mix_Ever&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_38" class="projectTags">
+			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Music.html" class="projectTag">Music</a>		</div>
+		</div>
+<div id="MageManager" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/MageManager/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/33/MageManager.html"><span class="projectName">MageManager</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Augments and records information while playing the turn-based browser game The Reincarnation.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/33/MageManager.html">
+		See more...</a> (4 files, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/33/MageManager"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/33/MageManager&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_33" class="projectTags">
+			<a href="index.php/listing/tag/Game%20Mod.html" class="projectTag">Game Mod</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="Dan_DVD" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Dan_DVD/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/47/Dan_DVD.html"><span class="projectName">Dan DVD</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+A few years after my brother's death I put together a DVD of videos of him.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/47/Dan_DVD.html">
+		See more...</a> (2 links, 3 files, 2 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/47/Dan_DVD"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/47/Dan_DVD&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_47" class="projectTags">
+			<a href="index.php/listing/tag/Counter-Strike.html" class="projectTag">Counter-Strike</a>			<a href="index.php/listing/tag/DVD.html" class="projectTag">DVD</a>			<a href="index.php/listing/tag/Family.html" class="projectTag">Family</a>			<a href="index.php/listing/tag/Video.html" class="projectTag">Video</a>		</div>
+		</div>
+<div id="Prontera" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Prontera/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/29/Prontera.html"><span class="projectName">Prontera</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Partially completed Quake 3 map modeled after Prontera, capital city of Rune Midgard in the Korean MMO Ragnarok Online.  <p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/29/Prontera.html">
+		See more...</a> (2 files, 5 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/29/Prontera"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/29/Prontera&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_29" class="projectTags">
+			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Game%20Mod.html" class="projectTag">Game Mod</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Quake%203.html" class="projectTag">Quake 3</a>			<a href="index.php/listing/tag/Ragnarok%20Online.html" class="projectTag">Ragnarok Online</a>		</div>
+		</div>
+<div id="Bunkers" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Bunkers/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/34/Bunkers.html"><span class="projectName">Bunkers</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Quake 3 map based on the Bunkers level from N64's Goldeneye.  Started by Bob, improved by me, but never completely finished.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/34/Bunkers.html">
+		See more...</a> (1 file, 5 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/34/Bunkers"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/34/Bunkers&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_34" class="projectTags">
+			<a href="index.php/listing/tag/Game%20Mod.html" class="projectTag">Game Mod</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Goldeneye.html" class="projectTag">Goldeneye</a>			<a href="index.php/listing/tag/Quake%203.html" class="projectTag">Quake 3</a>		</div>
+		</div>
+<div id="Music14_Project" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Music14_Project/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/37/Music14_Project.html"><span class="projectName">Music14 Project</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Program written for a Contemporary Music class which plays sounds such that the tempo represents the stress of life and quotes from The Big Lebowski act as a reminder to slow down and relax.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/37/Music14_Project.html">
+		See more...</a> (7 files, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/37/Music14_Project"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/37/Music14_Project&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_37" class="projectTags">
+			<a href="index.php/listing/tag/Music.html" class="projectTag">Music</a>			<a href="index.php/listing/tag/School.html" class="projectTag">School</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="JournalCombine" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/JournalCombine/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/58/JournalCombine.html"><span class="projectName">JournalCombine</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Chronologically combine entries from LiveJournal, DeadJournal, and Blurty accounts in a way that makes it easy to catch up on reading their latest updates.  Written before the prevalence of RSS.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/58/JournalCombine.html">
+		See more...</a> (1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/58/JournalCombine"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/58/JournalCombine&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_58" class="projectTags">
+			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="DannyKlancher.com" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/DannyKlancher.com/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/46/DannyKlancher.html"><span class="projectName">DannyKlancher.com</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Memorial site created for Danny Klancher.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/46/DannyKlancher.html">
+		See more...</a> (2 links, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/46/DannyKlancher.com"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/46/DannyKlancher.com&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_46" class="projectTags">
+			<a href="index.php/listing/tag/Family.html" class="projectTag">Family</a>			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="ArchManager" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/ArchManager/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/59/ArchManager.html"><span class="projectName">ArchManager</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Augmented the game ArchMage.  Just as ArchMage was later resurrected as The Reincarnation, ArchManager came back as MageManager.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/59/ArchManager.html">
+		See more...</a></div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/59/ArchManager"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/59/ArchManager&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_59" class="projectTags">
+			<a href="index.php/listing/tag/Game%20Mod.html" class="projectTag">Game Mod</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>		</div>
+		</div>
+<div id="Daydream_Reality" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Daydream_Reality/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/57/Daydream_Reality.html"><span class="projectName">Daydream Reality</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+My blog oriented website from 2002 to 2005, the end of high school and beginning of college.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/57/Daydream_Reality.html">
+		See more...</a> (4 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/57/Daydream_Reality"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/57/Daydream_Reality&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_57" class="projectTags">
+			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="Music_Profile" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/63/Music_Profile.html"><span class="projectName">Music Profile</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Dynamically showed song info and download link for currently playing song for AIM profiles in 2002.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/63/Music_Profile.html">
+		See more...</a></div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/63/Music_Profile"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/63/Music_Profile&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_63" class="projectTags">
+			<a href="index.php/listing/tag/Music.html" class="projectTag">Music</a>			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="TI-89_Virtual_Harddrive" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/TI-89_Virtual_Harddrive/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/31/TI-89_Virtual_Harddrive.html"><span class="projectName">TI-89 Virtual Harddrive</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Show a snapshot of your computer's files on your TI-89.  File/folder changes made on the calculator would be sync'd back to the computer.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/31/TI-89_Virtual_Harddrive.html">
+		See more...</a> (1 link, 3 files, 4 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/31/TI-89_Virtual_Harddrive"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/31/TI-89_Virtual_Harddrive&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_31" class="projectTags">
+			<a href="index.php/listing/tag/Calculator.html" class="projectTag">Calculator</a>			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="CS_Clock" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/CS_Clock/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/64/CS_Clock.html"><span class="projectName">CS Clock</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Generates a constantly updated script such that it will tell you in-game the current time and time left on the current map.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/64/CS_Clock.html">
+		See more...</a> (2 files, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/64/CS_Clock"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/64/CS_Clock&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_64" class="projectTags">
+			<a href="index.php/listing/tag/Counter-Strike.html" class="projectTag">Counter-Strike</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="Dan_Remission_Video" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Dan_Remission_Video/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/48/Dan_Remission_Video.html"><span class="projectName">Dan Remission Video</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Video interviews of family, friends, and teachers mixed in with colleges of pictures for Dan's remission in 2001.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/48/Dan_Remission_Video.html">
+		See more...</a> (1 link, 5 files, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/48/Dan_Remission_Video"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/48/Dan_Remission_Video&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_48" class="projectTags">
+			<a href="index.php/listing/tag/Family.html" class="projectTag">Family</a>			<a href="index.php/listing/tag/Video.html" class="projectTag">Video</a>		</div>
+		</div>
+<div id="Misc_Calculator_Programs" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Misc_Calculator_Programs/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/44/Misc_Calculator_Programs.html"><span class="projectName">Misc Calculator Programs</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Misc programs I wrote for the TI-89.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/44/Misc_Calculator_Programs.html">
+		See more...</a> (5 files, 4 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/44/Misc_Calculator_Programs"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/44/Misc_Calculator_Programs&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_44" class="projectTags">
+			<a href="index.php/listing/tag/Calculator.html" class="projectTag">Calculator</a>			<a href="index.php/listing/tag/Counter-Strike.html" class="projectTag">Counter-Strike</a>		</div>
+		</div>
+<div id="Gaming_Collage" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Gaming_Collage/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/49/Gaming_Collage.html"><span class="projectName">Gaming Collage</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+4' x 6' collage of ads from gaming magazines, including original ads for classics like Half-Life, StarCraft, Tomb Raider, Fallout 2, Worms, and Rainbow Six.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/49/Gaming_Collage.html">
+		See more...</a> (1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/49/Gaming_Collage"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/49/Gaming_Collage&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_49" class="projectTags">
+			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Visual.html" class="projectTag">Visual</a>		</div>
+		</div>
+<div id="Battleship" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Battleship/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/32/Battleship.html"><span class="projectName">Battleship</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+A version of the game Battleship that I wrote for the TI-89 Calculator in TI-BASIC.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/32/Battleship.html">
+		See more...</a> (3 files, 3 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/32/Battleship"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/32/Battleship&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_32" class="projectTags">
+			<a href="index.php/listing/tag/Calculator.html" class="projectTag">Calculator</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>		</div>
+		</div>
+<div id="Sword_Logo" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Sword_Logo/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/62/Sword_Logo.html"><span class="projectName">Sword Logo</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Sword logo made with the Persistence of Vision Raytracer and have used in many games and projects since.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/62/Sword_Logo.html">
+		See more...</a> (1 file, 3 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/62/Sword_Logo"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/62/Sword_Logo&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_62" class="projectTags">
+			<a href="index.php/listing/tag/Counter-Strike.html" class="projectTag">Counter-Strike</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Visual.html" class="projectTag">Visual</a>		</div>
+		</div>
+<div id="Bloodbath" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Bloodbath/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/30/Bloodbath.html"><span class="projectName">Bloodbath</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Partially completed StarCraft themed Quake 3 map<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/30/Bloodbath.html">
+		See more...</a> (2 files, 13 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/30/Bloodbath"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/30/Bloodbath&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_30" class="projectTags">
+			<a href="index.php/listing/tag/Game%20Mod.html" class="projectTag">Game Mod</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Quake%203.html" class="projectTag">Quake 3</a>			<a href="index.php/listing/tag/StarCraft.html" class="projectTag">StarCraft</a>		</div>
+		</div>
+<div id="Misc_Quake_3" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Misc_Quake_3/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/51/Misc_Quake_3.html"><span class="projectName">Misc Quake 3</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Misc Quake 3 projects I worked on, plus Bob's Quake 3 maps.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/51/Misc_Quake_3.html">
+		See more...</a> (1 link, 5 files, 3 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/51/Misc_Quake_3"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/51/Misc_Quake_3&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_51" class="projectTags">
+			<a href="index.php/listing/tag/Game%20Mod.html" class="projectTag">Game Mod</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Quake%203.html" class="projectTag">Quake 3</a>		</div>
+		</div>
+<div id="Quake_3_SMKnight_skin" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Quake_3_SMKnight_skin/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/28/Quake_3_SMKnight_skin.html"><span class="projectName">Quake 3 SMKnight skin</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Quake 3 skin with my face on it.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/28/Quake_3_SMKnight_skin.html">
+		See more...</a> (1 file, 2 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/28/Quake_3_SMKnight_skin"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/28/Quake_3_SMKnight_skin&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_28" class="projectTags">
+			<a href="index.php/listing/tag/Game%20Mod.html" class="projectTag">Game Mod</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Quake%203.html" class="projectTag">Quake 3</a>		</div>
+		</div>
+<div id="Site_of_SMKnight" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Site_of_SMKnight/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/55/Site_of_SMKnight.html"><span class="projectName">Site of SMKnight</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+My project/game oriented website 2000-2001<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/55/Site_of_SMKnight.html">
+		See more...</a> (2 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/55/Site_of_SMKnight"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/55/Site_of_SMKnight&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_55" class="projectTags">
+			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="Goldeneyes_Complex" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Goldeneyes_Complex/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/20/Goldeneyes_Complex.html"><span class="projectName">Goldeneye's Complex</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+The level "Complex" from Nintendo 64's Goldeneye as a playable map for Quake 3.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/20/Goldeneyes_Complex.html">
+		See more...</a> (6 links, 7 files, 7 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/20/Goldeneyes_Complex"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/20/Goldeneyes_Complex&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_20" class="projectTags">
+			<a href="index.php/listing/tag/Counter-Strike.html" class="projectTag">Counter-Strike</a>			<a href="index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="index.php/listing/tag/Game%20Mod.html" class="projectTag">Game Mod</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Goldeneye.html" class="projectTag">Goldeneye</a>			<a href="index.php/listing/tag/Quake%203.html" class="projectTag">Quake 3</a>		</div>
+		</div>
+<div id="History_Day_Project" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/History_Day_Project/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/56/History_Day_Project.html"><span class="projectName">History Day Project</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Ill fated History Day website titled "Computers: The Turning Point of Modern History."<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/56/History_Day_Project.html">
+		See more...</a> (1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/56/History_Day_Project"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/56/History_Day_Project&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_56" class="projectTags">
+			<a href="index.php/listing/tag/School.html" class="projectTag">School</a>			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="Site_of_SMKnight_Baytec_Computer_Camp" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Site_of_SMKnight_Baytec_Computer_Camp/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/54/Site_of_SMKnight_Baytec_Computer_Camp.html"><span class="projectName">Site of SMKnight (Baytec Computer Camp)</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+My website in 1999<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/54/Site_of_SMKnight_Baytec_Computer_Camp.html">
+		See more...</a> (1 file, 2 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/54/Site_of_SMKnight_Baytec_Computer_Camp"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/54/Site_of_SMKnight_Baytec_Computer_Camp&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_54" class="projectTags">
+			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="TileGame" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/TileGame/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/61/TileGame.html"><span class="projectName">TileGame</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Learning experience in trying to make a tile based game imitating Link's Awakening.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/61/TileGame.html">
+		See more...</a> (1 file, 3 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/61/TileGame"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/61/TileGame&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_61" class="projectTags">
+			<a href="index.php/listing/tag/Source%20Included.html" class="projectTag">Source Included</a>			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="Realm_of_Weirdness" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Realm_of_Weirdness/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/53/Realm_of_Weirdness.html"><span class="projectName">Realm of Weirdness</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Quick and silly website that I made from a day in 1999 when I had borrowed a digital camera and had friends over.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/53/Realm_of_Weirdness.html">
+		See more...</a> (3 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/53/Realm_of_Weirdness"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/53/Realm_of_Weirdness&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_53" class="projectTags">
+			<a href="index.php/listing/tag/Family.html" class="projectTag">Family</a>			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="Evil_O" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Evil_O/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/40/Evil_O.html"><span class="projectName">Evil O</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Silly "game" making fun of a teacher.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/40/Evil_O.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/40/Evil_O"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/40/Evil_O&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_40" class="projectTags">
+			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="P2P" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/P2P/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/41/P2P.html"><span class="projectName">P2P</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Program commemorating the experience of a People to People Student Ambassador trip to the UK and Ireland in 1998.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/41/P2P.html">
+		See more...</a> (1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/41/P2P"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/41/P2P&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_41" class="projectTags">
+			<a href="index.php/listing/tag/VB6.html" class="projectTag">VB6</a>		</div>
+		</div>
+<div id="Stephens_World" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Stephens_World/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/52/Stephens_World.html"><span class="projectName">Stephen's World</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+My first website, made in the summer of 1998 to host my Cancer Doom project and the Windows icons I had made.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/52/Stephens_World.html">
+		See more...</a> (3 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/52/Stephens_World"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/52/Stephens_World&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_52" class="projectTags">
+			<a href="index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+		</div>
+<div id="Bond_Doom" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Bond_Doom/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/27/Bond_Doom.html"><span class="projectName">Bond Doom</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+The beginnings of a project to make Goldeneye maps in Doom, starting with the Streets and Runway levels.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/27/Bond_Doom.html">
+		See more...</a> (1 file, 2 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/27/Bond_Doom"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/27/Bond_Doom&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_27" class="projectTags">
+			<a href="index.php/listing/tag/Doom.html" class="projectTag">Doom</a>			<a href="index.php/listing/tag/Game%20Mod.html" class="projectTag">Game Mod</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>			<a href="index.php/listing/tag/Goldeneye.html" class="projectTag">Goldeneye</a>		</div>
+		</div>
+<div id="Cancer_Doom" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Cancer_Doom/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/26/Cancer_Doom.html"><span class="projectName">Cancer Doom</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Modification of the game Doom with the premise of fighting cancer with weapons like syringes and Nystatin.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/26/Cancer_Doom.html">
+		See more...</a> (2 files, 3 screenshots)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/26/Cancer_Doom"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/26/Cancer_Doom&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_26" class="projectTags">
+			<a href="index.php/listing/tag/Doom.html" class="projectTag">Doom</a>			<a href="index.php/listing/tag/Game%20Mod.html" class="projectTag">Game Mod</a>			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>		</div>
+		</div>
+<div id="Mutation_Script" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/50/Mutation_Script.html"><span class="projectName">Mutation Script</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Script created in a long gone text to speech "Hollywood" program.<p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/50/Mutation_Script.html">
+		See more...</a> (1 file)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/50/Mutation_Script"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/50/Mutation_Script&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_50" class="projectTags">
+		</div>
+		</div>
+<div id="Windows_Icons" class="project"> 
+	<div class="projectHeader">
+		<div class="projectIcon"><img src="https://projects.stephenklancher.com/files/Windows_Icons/icon100.jpg"></div>
+		<div class="projectTitle">
+			<h2><a href="project/id/42/Windows_Icons.html"><span class="projectName">Windows Icons</span></a></h2> 
+		</div>
+	</div> 
+<div class="projectDescription">
+Icons, many Nintendo related, originally created to be used in the Windows 3.1 Program Manager.  <p>
+	<div class="projectBelowDescription">
+		<div class="projectMore"><a href="project/id/42/Windows_Icons.html">
+		See more...</a> (1 file, 1 screenshot)</div>
+		<div class="projectLike">
+			<!--
+			<fb:like href="http://projects.stephenklancher.com/project/id/42/Windows_Icons"
+			layout="button_count" show_faces="false" width="100" colorscheme="dark"></fb:like>
+			-->
+			<!--
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://projects.stephenklancher.com/project/id/42/Windows_Icons&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=dark&amp;height=21"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;"
+			allowTransparency="true"></iframe>
+			-->
+		</div>
+	</div>
+</p>
+</div>
+	<div id="tags_42" class="projectTags">
+			<a href="index.php/listing/tag/Gaming.html" class="projectTag">Gaming</a>		</div>
+		</div>
+	</div>
+</div>  <div id="footer"> 
+	<div id="innerFooter"><a href="http://www.stephenklancher.com/">www.stephenklancher.com</a></div> 
+</div> 
+ 
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. --> 
+<!-- Add a background image to each and use width and height to control sizing, place with absolute positioning --> 
+<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div><div id="extraDiv3"><span></span></div> 
+<div id="extraDiv4"><span></span></div><div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div> 
+ 
+ 
+</body> 
+
+<!-- Mirrored from projects.stephenklancher.com/index.php?/listing/tag/all by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Mar 2022 23:32:14 GMT -->
+</html>

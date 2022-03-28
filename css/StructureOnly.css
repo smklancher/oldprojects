@@ -1,0 +1,252 @@
+
+/* I saw min-height: 100% suggested for html, body, but this breaks the sticky footer  */
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: sans-serif;
+
+}
+
+#container {
+	top:0px;
+	left:0px;
+	padding:0px;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	
+	/* footer sticks to bottom: http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -40px;
+}
+
+#intro {
+	position:relative;
+	top:0px;
+	left:0px;	
+	padding:0px;
+	margin:0px;
+
+}
+
+/* === Header === */
+
+#pageHeader {
+	height: 67px;
+	position: relative;
+	overflow:hidden;	
+	padding:0px;
+	margin:0px;
+}
+
+#pageHeader a {
+	text-decoration: none;
+}
+
+#pageHeader h1 { 
+	background: transparent;
+	padding: 0px;
+	margin:0px;
+	width:auto;
+	text-decoration: none;
+}
+
+
+#adminFunctions {
+	position:absolute;
+	top:2px;
+	right:2px;
+}
+
+
+/* === Show All === */
+
+#subHeader {
+	width:100%;
+	text-align:right;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	/* height: 20px; */
+	position: relative;
+	overflow:hidden;	
+	padding:1px;
+}
+
+
+/* === Cloud === */
+
+#cloud {
+	float:left;
+	width:200px;
+	height: 100%;
+	position:absolute;
+	left:0px;
+	border-right-color: #000000;
+	border-right-style: dashed;
+	border-right-width: 1px;
+	margin-right: 20px;
+}
+
+#cloudList {
+	height:100%;
+}
+
+
+
+/* === Projects === */
+
+#projects {
+	margin-left: 200px;
+	padding: 1em;
+	margin-bottom: 40px; /* footer sticks to bottom: http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
+}
+
+#showing {
+	position: relative;
+	border-width:2px;
+	border-style:solid;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+
+.project {
+	position: relative;
+	border-width:2px;
+	border-style:solid;
+	margin: 10px;
+	padding: 10px;
+}
+
+/* === Project Header === */
+
+.projectHeader{
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	overflow: hidden;
+}
+
+.projectIcon{
+	width: 210px;
+	text-align: right;
+	vertical-align: middle;
+	float: right;
+}
+
+.projectTitle{
+	width: 100%;
+	text-align: left;
+	vertical-align: middle;
+	margin-right: 200px;
+}
+
+
+/* === Project Description === */
+
+.projectDescription {
+	position: relative;
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px;
+}
+
+.projectBelowDescription {
+	position: relative;
+	width: 100%;
+}
+
+.projectLike {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.projectMore {
+	text-align: left;
+	min-height: 21px;
+}
+
+#editLink {
+	position: absolute;
+	top:0px;
+	right:0px;
+	border-width:2px;
+	border-bottom-style:solid;
+	border-left-style: solid;
+}
+
+
+/* === Project Tags === */
+
+.projectTags {
+	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",  Monaco, "Courier New", Courier, monospace;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	line-height:150%;
+}
+
+.projectTag {
+	margin: 20px 10px 20px 10px;
+	text-decoration:none;
+}
+
+
+/* === Resources === */
+.resourceHeader {
+	
+
+}
+
+.screenshot {
+	text-align: center;
+}
+
+
+/* === Timeline === */
+#timeline {
+	height: 600px;
+}
+
+
+/* === Footer === */
+
+#footer {
+	width:100%;
+	
+	left:0px;
+	padding:0px;
+	margin:0px;
+	
+	/* footer sticks to bottom: http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
+	height: 40px;
+	z-index: 2;
+	position:relative;
+}
+
+
+#innerFooter {
+	width:100%;
+	text-align:center;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	left:0px;
+	margin:0px;
+	top:0px;
+	font-size:10px;
+	height:20px;
+}
+
+#innerFooter a {
+	text-decoration:none;
+	margin: 10px;
+}
+
+

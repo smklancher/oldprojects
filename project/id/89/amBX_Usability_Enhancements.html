@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<!-- Mirrored from projects.stephenklancher.com/project/id/89/amBX_Usability_Enhancements by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Mar 2022 23:32:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<title>amBX Usability Enhancements</title> 
+	<meta property="og:title" content="amBX Usability Enhancements"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="amBX_Usability_Enhancements.html"/>
+    <meta property="og:image" content="../../../images/defaultfbicon.jpg"/>
+    <meta property="og:site_name" content="Stephen's Projects"/>
+    <meta property="fb:admins" content="3302625"/>
+    <meta property="fb:page_id" content="166105630094157"/>
+    <meta property="og:description"
+          content="Scripts and configuration to improve amBX Gaming Lights"/>
+
+<link rel="stylesheet" type="text/css" href="../../../css/Blue.css"
+  title="Blue" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Blue.css"
+	title="Blue" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Kofax.css"
+	title="Kofax" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Max_Payne.css"
+	title="Max_Payne" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/PHP.css"
+	title="PHP" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Story_Run.css"
+	title="Story_Run" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/StructureOnly.css"
+	title="StructureOnly" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/PHP-logo.css"
+	title="PHP-logo" />
+
+
+<!-- Reference the theme's stylesheet on the Google CDN -->
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/smoothness/jquery-ui.css"
+        type="text/css" rel="stylesheet" />
+ 
+  <!-- Reference jQuery and jQuery UI from the CDN. Remember
+       that the order of these two elements is important -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>
+  
+  <!-- <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script> -->
+
+
+<script type="text/javascript" src="../../../js/styleswitcher.js"></script>
+  
+<script type="text/javascript" src="../../../js/projectdb.js"></script> 
+ <script type="text/javascript"> 
+  $(document).ready(function() {
+	//$(".datepick").datepicker({ dateFormat: 'yy-mm-dd', changeYear: true });
+	
+	//read the style cookie
+	var cookie = readCookie("style");
+	//if the cookie isn't set default to auto... changing this to blue
+	//TODO: Cookie read to set default should be done server side to prevent flicker on longer pages
+	var style = cookie ? cookie : 'Blue';
+	//this sets the style including special handling of auto
+	setActiveStyleSheet(style);
+	
+	//set the dropdown
+	$("#StylePref").val(style);
+	
+  });
+</script> 
+
+</head> 
+<body>
+	
+
+<div id="container"> 
+	<div id="intro"> 
+		<div id="pageHeader"> 
+			<a href="../../../index.html"><h1>Stephen's Projects</h1></a>
+		</div>
+		<div id="adminFunctions">
+								</div>
+		<div id="subHeader"> 
+			<span id="showAll"><a href="../../../listing/index.html">Show All Projects</a></span>
+			<select name="StylePref" id="StylePref" onChange="setActiveStyleSheet($('#StylePref').val());">
+<option value="Auto">AutoStyle by Tag</option>
+<option value="Blue">Blue</option>
+<option value="Kofax">Kofax</option>
+<option value="Max_Payne">Max_Payne</option>
+<option value="PHP">PHP</option>
+<option value="Story_Run">Story_Run</option>
+<option value="StructureOnly">StructureOnly</option>
+<option value="PHP-logo">PHP-logo</option>
+</select>
+		</div> 
+	</div> 	<div id="cloud"> 
+		<ul id="cloudList">
+		<li class="tag_cloud"><a href="../../../index.php/listing/tag/all.html" style="font-size: 20px">All Projects</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/DotNet.html" style="font-size: 20px" title="35 projects tagged DotNet">DotNet</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Kofax.html" style="font-size: 19px" title="30 projects tagged Kofax">Kofax</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Gaming.html" style="font-size: 17px" title="23 projects tagged Gaming">Gaming</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Featured.html" style="font-size: 15px" title="15 projects tagged Featured">Featured</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Source%20Included.html" style="font-size: 15px" title="14 projects tagged Source Included">Source Included</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/VB6.html" style="font-size: 15px" title="14 projects tagged VB6">VB6</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/web.html" style="font-size: 15px" title="13 projects tagged web">web</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Miscellaneous%20Utility.html" style="font-size: 14px" title="12 projects tagged Miscellaneous Utility">Miscellaneous Utility</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/KTM.html" style="font-size: 14px" title="11 projects tagged KTM">KTM</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Game%20Mod.html" style="font-size: 14px" title="10 projects tagged Game Mod">Game Mod</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Visual.html" style="font-size: 13px" title="7 projects tagged Visual">Visual</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Quake%203.html" style="font-size: 13px" title="6 projects tagged Quake 3">Quake 3</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Kofax%20Internal.html" style="font-size: 13px" title="6 projects tagged Kofax Internal">Kofax Internal</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Music.html" style="font-size: 13px" title="5 projects tagged Music">Music</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Counter-Strike.html" style="font-size: 13px" title="5 projects tagged Counter-Strike">Counter-Strike</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/PHP.html" style="font-size: 13px" title="5 projects tagged PHP">PHP</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Family.html" style="font-size: 13px" title="5 projects tagged Family">Family</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Video.html" style="font-size: 13px" title="5 projects tagged Video">Video</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Calculator.html" style="font-size: 12px" title="3 projects tagged Calculator">Calculator</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Quantified%20Self.html" style="font-size: 12px" title="3 projects tagged Quantified Self">Quantified Self</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/YouTube.html" style="font-size: 12px" title="3 projects tagged YouTube">YouTube</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Goldeneye.html" style="font-size: 12px" title="3 projects tagged Goldeneye">Goldeneye</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Script.html" style="font-size: 12px" title="3 projects tagged Script">Script</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/DVD.html" style="font-size: 12px" title="3 projects tagged DVD">DVD</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/School.html" style="font-size: 12px" title="2 projects tagged School">School</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/amBX.html" style="font-size: 12px" title="2 projects tagged amBX">amBX</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/CSS.html" style="font-size: 12px" title="2 projects tagged CSS">CSS</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Ragnarok%20Online.html" style="font-size: 12px" title="2 projects tagged Ragnarok Online">Ragnarok Online</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Doom.html" style="font-size: 12px" title="2 projects tagged Doom">Doom</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/OCGov.html" style="font-size: 12px" title="2 projects tagged OCGov">OCGov</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Story%20Run.html" style="font-size: 12px" title="2 projects tagged Story Run">Story Run</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Max%20Payne.html" style="font-size: 12px" title="2 projects tagged Max Payne">Max Payne</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Android.html" style="font-size: 12px" title="2 projects tagged Android">Android</a></li>
+</ul> 	</div> 
+	<div id="projects">
+		
+<div id="amBX_Usability_Enhancements" class="project">
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="amBX_Usability_Enhancements.html"><span class="projectName">amBX Usability Enhancements</span></a></h2> 
+		</div>
+	</div>
+	<div class="projectDescription">I use <a href="http://www.amazon.com/gp/product/B005DKZSVS/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B005DKZSVS&amp;linkCode=as2&amp;tag=medimome-20">amBX Gaming Lights</a> and while I like them, there are some rough edges.  If my computer would go to sleep, the driver/services wouldn't work correctly unless they were restarted.  And applications like <a href="http://www.ambx.com/wiki/Illuminate">amBX Illuminate</a> would hang as a result, so that needed to be restarted too.<br />
+<br />
+So I wrote a batch script to do this.  Then I used a scheduled task to check the event log for the Power event that meant the system was waking up.  The batch scripts need to run as Administrator, but scheduled tasks have an option for this.  Cool, now the lights work properly after the computer wakes.<br />
+<br />
+But then I decided I wanted shortcut keys to manually stop and start the lights.  So I bound the batch scripts to the extra keys on my <a href="http://www.amazon.com/gp/product/B009C98NPY/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B009C98NPY&amp;linkCode=as2&amp;tag=medimome-20">Logitech G710+ Mechanical Gaming Keyboard</a>.  But the batch script needs to run as Administrator and there wasn't a built-in way to do that with the keyboard configuration, so I had to <a title="Current Directory in Elevated Batch Scripts in Windows 8" href="http://blog.stephenklancher.com/2013/08/current-directory-in-elevated-batch-scripts-in-windows-8/">find ways to make that happen</a>.  Now the scripts auto elevate which is seemless if UAC is off.  With UAC on this will trigger a prompt, but at least it will work.<br />
+<br />
+Then there was the minor problem that killing Illuminate would leave orphaned icons in the system tray.  This too could be solved with a <a title="Refreshing the Notification Area (System Tray)" href="http://blog.stephenklancher.com/2013/08/refreshing-the-notification-area-system-tray/">bit of work</a>.<br />
+<br />
+Included is:<br />
+<ul><br />
+	<li>A script to (re)start the amBX services and amBX Illuminate</li><br />
+	<li>A script to kill amBX Illuminate</li><br />
+	<li><a href="../88/Refresh_Notification_Area.html">RefreshNotificationArea</a>, which is called from the scripts to clear orphan icons in the system tray after killing processes</li><br />
+	<li>XML export of a scheduled task to run the restart script when the system wakes from sleep.</li><br />
+	<li>XML export of a keyboard profile for Logitech's Gaming Software, which binds G1 to (re)start the lights, and G2 to turn them off.</li><br />
+</ul><br />
+The scheduled task and keyboard profile assume the scripts are in C:\Apps\amBX.  Be sure to update the path if needed.<br />
+<br />
+Though the scripts are stopping and starting amBX Illuminate, the same principle should apply if the scripts are changed to reference an alternative program like <a href="http://www.ambx.com/forum/viewtopic.php?f=2&amp;t=2766&amp;sid=7898bf323d3f951ccda9356c61165766">Aurora Synesthesia</a> or <a href="http://www.ambx.com/forum/viewtopic.php?f=5&amp;t=4536">glOW</a>.<br />
+<br />
+<br />
+RefreshNotificationArea requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=40784">Microsoft Visual C++ 2013 Redistributable</a><br><br>
+	</div>
+		<div id="tags_89" class="projectTags">
+			<a href="../../../index.php/listing/tag/amBX.html" class="projectTag">amBX</a>			<a href="../../../index.php/listing/tag/Script.html" class="projectTag">Script</a>		</div>
+	<div class="resources">
+				
+				
+		
+		
+					<h3 class="resourceHeader">Files</h3>
+			<ul>
+				<li class="file"><a href="https://projects.stephenklancher.com/files/amBX_Usability_Enhancements/amBX Usability Enhancements.zip">amBX Usability Enhancements.zip</a> (10.34 KB, Updated 2013-12-08)</li>			</ul>
+				
+		
+		
+			</div>
+</div>
+
+	</div>
+</div>  <div id="footer"> 
+	<div id="innerFooter"><a href="http://www.stephenklancher.com/">www.stephenklancher.com</a></div> 
+</div> 
+ 
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. --> 
+<!-- Add a background image to each and use width and height to control sizing, place with absolute positioning --> 
+<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div><div id="extraDiv3"><span></span></div> 
+<div id="extraDiv4"><span></span></div><div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div> 
+ 
+ 
+</body> 
+
+<!-- Mirrored from projects.stephenklancher.com/project/id/89/amBX_Usability_Enhancements by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Mar 2022 23:32:15 GMT -->
+</html>

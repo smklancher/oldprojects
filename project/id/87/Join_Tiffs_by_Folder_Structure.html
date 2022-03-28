@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<!-- Mirrored from projects.stephenklancher.com/project/id/87/Join_Tiffs_by_Folder_Structure by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Mar 2022 23:32:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<title>Join Tiffs by Folder Structure</title> 
+	<meta property="og:title" content="Join Tiffs by Folder Structure"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="Join_Tiffs_by_Folder_Structure.html"/>
+    <meta property="og:image" content="../../../images/defaultfbicon.jpg"/>
+    <meta property="og:site_name" content="Stephen's Projects"/>
+    <meta property="fb:admins" content="3302625"/>
+    <meta property="fb:page_id" content="166105630094157"/>
+    <meta property="og:description"
+          content="Batch script to use IrfanView to recursively create multipage tiffs from folders of single page tiffs."/>
+
+<link rel="stylesheet" type="text/css" href="../../../css/Blue.css"
+  title="Blue" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Blue.css"
+	title="Blue" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Kofax.css"
+	title="Kofax" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Max_Payne.css"
+	title="Max_Payne" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/PHP.css"
+	title="PHP" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Story_Run.css"
+	title="Story_Run" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/StructureOnly.css"
+	title="StructureOnly" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/PHP-logo.css"
+	title="PHP-logo" />
+
+
+<!-- Reference the theme's stylesheet on the Google CDN -->
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/smoothness/jquery-ui.css"
+        type="text/css" rel="stylesheet" />
+ 
+  <!-- Reference jQuery and jQuery UI from the CDN. Remember
+       that the order of these two elements is important -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>
+  
+  <!-- <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script> -->
+
+
+<script type="text/javascript" src="../../../js/styleswitcher.js"></script>
+  
+<script type="text/javascript" src="../../../js/projectdb.js"></script> 
+ <script type="text/javascript"> 
+  $(document).ready(function() {
+	//$(".datepick").datepicker({ dateFormat: 'yy-mm-dd', changeYear: true });
+	
+	//read the style cookie
+	var cookie = readCookie("style");
+	//if the cookie isn't set default to auto... changing this to blue
+	//TODO: Cookie read to set default should be done server side to prevent flicker on longer pages
+	var style = cookie ? cookie : 'Blue';
+	//this sets the style including special handling of auto
+	setActiveStyleSheet(style);
+	
+	//set the dropdown
+	$("#StylePref").val(style);
+	
+  });
+</script> 
+
+</head> 
+<body>
+	
+
+<div id="container"> 
+	<div id="intro"> 
+		<div id="pageHeader"> 
+			<a href="../../../index.html"><h1>Stephen's Projects</h1></a>
+		</div>
+		<div id="adminFunctions">
+								</div>
+		<div id="subHeader"> 
+			<span id="showAll"><a href="../../../listing/index.html">Show All Projects</a></span>
+			<select name="StylePref" id="StylePref" onChange="setActiveStyleSheet($('#StylePref').val());">
+<option value="Auto">AutoStyle by Tag</option>
+<option value="Blue">Blue</option>
+<option value="Kofax">Kofax</option>
+<option value="Max_Payne">Max_Payne</option>
+<option value="PHP">PHP</option>
+<option value="Story_Run">Story_Run</option>
+<option value="StructureOnly">StructureOnly</option>
+<option value="PHP-logo">PHP-logo</option>
+</select>
+		</div> 
+	</div> 	<div id="cloud"> 
+		<ul id="cloudList">
+		<li class="tag_cloud"><a href="../../../index.php/listing/tag/all.html" style="font-size: 20px">All Projects</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/DotNet.html" style="font-size: 20px" title="35 projects tagged DotNet">DotNet</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Kofax.html" style="font-size: 19px" title="30 projects tagged Kofax">Kofax</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Gaming.html" style="font-size: 17px" title="23 projects tagged Gaming">Gaming</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Featured.html" style="font-size: 15px" title="15 projects tagged Featured">Featured</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Source%20Included.html" style="font-size: 15px" title="14 projects tagged Source Included">Source Included</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/VB6.html" style="font-size: 15px" title="14 projects tagged VB6">VB6</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/web.html" style="font-size: 15px" title="13 projects tagged web">web</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Miscellaneous%20Utility.html" style="font-size: 14px" title="12 projects tagged Miscellaneous Utility">Miscellaneous Utility</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/KTM.html" style="font-size: 14px" title="11 projects tagged KTM">KTM</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Game%20Mod.html" style="font-size: 14px" title="10 projects tagged Game Mod">Game Mod</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Visual.html" style="font-size: 13px" title="7 projects tagged Visual">Visual</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Quake%203.html" style="font-size: 13px" title="6 projects tagged Quake 3">Quake 3</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Kofax%20Internal.html" style="font-size: 13px" title="6 projects tagged Kofax Internal">Kofax Internal</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Music.html" style="font-size: 13px" title="5 projects tagged Music">Music</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Counter-Strike.html" style="font-size: 13px" title="5 projects tagged Counter-Strike">Counter-Strike</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/PHP.html" style="font-size: 13px" title="5 projects tagged PHP">PHP</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Family.html" style="font-size: 13px" title="5 projects tagged Family">Family</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Video.html" style="font-size: 13px" title="5 projects tagged Video">Video</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Calculator.html" style="font-size: 12px" title="3 projects tagged Calculator">Calculator</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Quantified%20Self.html" style="font-size: 12px" title="3 projects tagged Quantified Self">Quantified Self</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/YouTube.html" style="font-size: 12px" title="3 projects tagged YouTube">YouTube</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Goldeneye.html" style="font-size: 12px" title="3 projects tagged Goldeneye">Goldeneye</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Script.html" style="font-size: 12px" title="3 projects tagged Script">Script</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/DVD.html" style="font-size: 12px" title="3 projects tagged DVD">DVD</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/School.html" style="font-size: 12px" title="2 projects tagged School">School</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/amBX.html" style="font-size: 12px" title="2 projects tagged amBX">amBX</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/CSS.html" style="font-size: 12px" title="2 projects tagged CSS">CSS</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Ragnarok%20Online.html" style="font-size: 12px" title="2 projects tagged Ragnarok Online">Ragnarok Online</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Doom.html" style="font-size: 12px" title="2 projects tagged Doom">Doom</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/OCGov.html" style="font-size: 12px" title="2 projects tagged OCGov">OCGov</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Story%20Run.html" style="font-size: 12px" title="2 projects tagged Story Run">Story Run</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Max%20Payne.html" style="font-size: 12px" title="2 projects tagged Max Payne">Max Payne</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Android.html" style="font-size: 12px" title="2 projects tagged Android">Android</a></li>
+</ul> 	</div> 
+	<div id="projects">
+		
+<div id="Join_Tiffs_by_Folder_Structure" class="project">
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="Join_Tiffs_by_Folder_Structure.html"><span class="projectName">Join Tiffs by Folder Structure</span></a></h2> 
+		</div>
+	</div>
+	<div class="projectDescription">There are plenty of ways to create multipage tiff files, but I couldn't find a low effort way to take a large number of folders full of single page tiffs and convert each to a multipage tiff.  The following is a batch script which will call <a href="http://www.irfanview.com/">IrfanView</a> to do this recursively. Place the script in the root folder which contains the subfolders of tiffs.  The result multipage tiffs will be created in the root folder named by folder.<br />
+<br />
+Be aware that be that this is accomplished by <i>appending</i> pages.  So running the script again while the output files are still in the root folder will lead to a seconds set of images appended to the same multipage tiff.<br />
+<br />
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 100%">@<span style="color: #AA22FF; font-weight: bold">echo</span> <span style="color: #AA22FF; font-weight: bold">off</span><br />
+<br />
+<span style="color: #008800; font-style: italic">REM http://www.robvanderwoude.com/variableexpansion.php</span><br />
+<span style="color: #008800; font-style: italic">REM use ! instead of % for delayed variable expansion in for loops</span><br />
+<span style="color: #AA22FF; font-weight: bold">setlocal</span> enabledelayedexpansion<br />
+<br />
+<span style="color: #008800; font-style: italic">REM Pitfalls of multiline syntax: </span><br />
+<span style="color: #008800; font-style: italic">REM http://stackoverflow.com/a/2258489</span><br />
+<span style="color: #AA22FF; font-weight: bold">for</span> /R <span style="color: #B8860B">%%a</span> in (*.tif) <span style="color: #AA22FF; font-weight: bold">do</span> (<br />
+	<span style="color: #008800; font-style: italic">REM For and file variable syntax: </span><br />
+	<span style="color: #008800; font-style: italic">REM http://www.robvanderwoude.com/ntfor.php</span><br />
+	<span style="color: #AA22FF; font-weight: bold">echo</span> Single page tiff: <span style="color: #B8860B">%%~a</span><br />
+	<span style="color: #AA22FF; font-weight: bold">set</span> <span style="color: #B8860B">joined</span><span style="color: #666666">=</span><span style="color: #B8860B">%%~pa</span><br />
+	<br />
+	<span style="color: #008800; font-style: italic">REM Replace path slashes with dashes:</span><br />
+	<span style="color: #008800; font-style: italic">REM http://www.dostips.com/DtTipsStringManipulation.php#Snippets.Replace</span><br />
+	<span style="color: #AA22FF; font-weight: bold">set</span> <span style="color: #B8860B">joined</span><span style="color: #666666">=</span>!joined:\<span style="color: #666666">=</span>-!<br />
+	<br />
+	<span style="color: #008800; font-style: italic">REM Remove both ends: </span><br />
+	<span style="color: #008800; font-style: italic">REM http://www.dostips.com/DtTipsStringManipulation.php#Snippets.RemoveBothEnds</span><br />
+	<span style="color: #AA22FF; font-weight: bold">set</span> <span style="color: #B8860B">joined</span><span style="color: #666666">=</span>!joined:~<span style="color: #666666">1</span>,<span style="color: #666666">-1</span>!<br />
+	<br />
+	<span style="color: #008800; font-style: italic">REM add root path and extension</span><br />
+	<span style="color: #AA22FF; font-weight: bold">set</span> <span style="color: #B8860B">joined</span><span style="color: #666666">=</span><span style="color: #B8860B">%cd%</span>\!joined!<span style="color: #B8860B">%%~xa</span><br />
+	<span style="color: #AA22FF; font-weight: bold">echo</span> Appended to: !joined!<br />
+	<br />
+	<span style="color: #008800; font-style: italic">REM https://irfanview-forum.de/showthread.php?t=345</span><br />
+	<span style="color: #BB4444">&quot;C:\Program Files (x86)\IrfanView\i_view32.exe&quot;</span> <span style="color: #B8860B">%%a</span> /append=!joined! /killmesoftly /silent<br />
+)<br />
+<span style="color: #AA22FF; font-weight: bold">pause</span><br />
+</pre></div><br />
+<br />
+<br><br>
+	</div>
+		<div id="tags_87" class="projectTags">
+			<a href="../../../index.php/listing/tag/Miscellaneous%20Utility.html" class="projectTag">Miscellaneous Utility</a>			<a href="../../../index.php/listing/tag/Script.html" class="projectTag">Script</a>		</div>
+	<div class="resources">
+				
+				
+		
+		
+					<h3 class="resourceHeader">Files</h3>
+			<ul>
+				<li class="file"><a href="https://projects.stephenklancher.com/files/Join_Tiffs_by_Folder_Structure/Join Tiffs by Folder Structure.zip">Join Tiffs by Folder Structure.zip</a> (695 B, Updated 2013-07-09)</li>			</ul>
+				
+		
+		
+			</div>
+</div>
+
+	</div>
+</div>  <div id="footer"> 
+	<div id="innerFooter"><a href="http://www.stephenklancher.com/">www.stephenklancher.com</a></div> 
+</div> 
+ 
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. --> 
+<!-- Add a background image to each and use width and height to control sizing, place with absolute positioning --> 
+<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div><div id="extraDiv3"><span></span></div> 
+<div id="extraDiv4"><span></span></div><div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div> 
+ 
+ 
+</body> 
+
+<!-- Mirrored from projects.stephenklancher.com/project/id/87/Join_Tiffs_by_Folder_Structure by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Mar 2022 23:32:15 GMT -->
+</html>

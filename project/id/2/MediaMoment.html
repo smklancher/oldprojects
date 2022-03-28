@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<!-- Mirrored from projects.stephenklancher.com/project/id/2/MediaMoment by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Mar 2022 23:32:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<title>MediaMoment</title> 
+	<meta property="og:title" content="MediaMoment"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="MediaMoment.html"/>
+    <meta property="og:image" content="../../../images/defaultfbicon.jpg"/>
+    <meta property="og:site_name" content="Stephen's Projects"/>
+    <meta property="fb:admins" content="3302625"/>
+    <meta property="fb:page_id" content="166105630094157"/>
+    <meta property="og:description"
+          content="Site to track what you watch, heavily centered around the Browser Extension that connects your viewing history to IMDb and other movie sites."/>
+
+<link rel="stylesheet" type="text/css" href="../../../css/PHP.css"
+  title="PHP" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Blue.css"
+	title="Blue" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Kofax.css"
+	title="Kofax" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Max_Payne.css"
+	title="Max_Payne" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/PHP.css"
+	title="PHP" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/Story_Run.css"
+	title="Story_Run" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/StructureOnly.css"
+	title="StructureOnly" />
+  <link rel="alternate stylesheet" type="text/css" href="../../../css/PHP-logo.css"
+	title="PHP-logo" />
+
+
+<!-- Reference the theme's stylesheet on the Google CDN -->
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/smoothness/jquery-ui.css"
+        type="text/css" rel="stylesheet" />
+ 
+  <!-- Reference jQuery and jQuery UI from the CDN. Remember
+       that the order of these two elements is important -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>
+  
+  <!-- <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script> -->
+
+
+<script type="text/javascript" src="../../../js/styleswitcher.js"></script>
+  
+<script type="text/javascript" src="../../../js/projectdb.js"></script> 
+ <script type="text/javascript"> 
+  $(document).ready(function() {
+	//$(".datepick").datepicker({ dateFormat: 'yy-mm-dd', changeYear: true });
+	
+	//read the style cookie
+	var cookie = readCookie("style");
+	//if the cookie isn't set default to auto... changing this to blue
+	//TODO: Cookie read to set default should be done server side to prevent flicker on longer pages
+	var style = cookie ? cookie : 'Blue';
+	//this sets the style including special handling of auto
+	setActiveStyleSheet(style);
+	
+	//set the dropdown
+	$("#StylePref").val(style);
+	
+  });
+</script> 
+
+</head> 
+<body>
+	
+
+<div id="container"> 
+	<div id="intro"> 
+		<div id="pageHeader"> 
+			<a href="../../../index.html"><h1>Stephen's Projects</h1></a>
+		</div>
+		<div id="adminFunctions">
+								</div>
+		<div id="subHeader"> 
+			<span id="showAll"><a href="../../../listing/index.html">Show All Projects</a></span>
+			<select name="StylePref" id="StylePref" onChange="setActiveStyleSheet($('#StylePref').val());">
+<option value="Auto">AutoStyle by Tag</option>
+<option value="Blue">Blue</option>
+<option value="Kofax">Kofax</option>
+<option value="Max_Payne">Max_Payne</option>
+<option value="PHP">PHP</option>
+<option value="Story_Run">Story_Run</option>
+<option value="StructureOnly">StructureOnly</option>
+<option value="PHP-logo">PHP-logo</option>
+</select>
+		</div> 
+	</div> 	<div id="cloud"> 
+		<ul id="cloudList">
+		<li class="tag_cloud"><a href="../../../index.php/listing/tag/all.html" style="font-size: 20px">All Projects</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/DotNet.html" style="font-size: 20px" title="35 projects tagged DotNet">DotNet</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Kofax.html" style="font-size: 19px" title="30 projects tagged Kofax">Kofax</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Gaming.html" style="font-size: 17px" title="23 projects tagged Gaming">Gaming</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Featured.html" style="font-size: 15px" title="15 projects tagged Featured">Featured</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Source%20Included.html" style="font-size: 15px" title="14 projects tagged Source Included">Source Included</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/VB6.html" style="font-size: 15px" title="14 projects tagged VB6">VB6</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/web.html" style="font-size: 15px" title="13 projects tagged web">web</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Miscellaneous%20Utility.html" style="font-size: 14px" title="12 projects tagged Miscellaneous Utility">Miscellaneous Utility</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/KTM.html" style="font-size: 14px" title="11 projects tagged KTM">KTM</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Game%20Mod.html" style="font-size: 14px" title="10 projects tagged Game Mod">Game Mod</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Visual.html" style="font-size: 13px" title="7 projects tagged Visual">Visual</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Quake%203.html" style="font-size: 13px" title="6 projects tagged Quake 3">Quake 3</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Kofax%20Internal.html" style="font-size: 13px" title="6 projects tagged Kofax Internal">Kofax Internal</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Music.html" style="font-size: 13px" title="5 projects tagged Music">Music</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Counter-Strike.html" style="font-size: 13px" title="5 projects tagged Counter-Strike">Counter-Strike</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/PHP.html" style="font-size: 13px" title="5 projects tagged PHP">PHP</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Family.html" style="font-size: 13px" title="5 projects tagged Family">Family</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Video.html" style="font-size: 13px" title="5 projects tagged Video">Video</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Calculator.html" style="font-size: 12px" title="3 projects tagged Calculator">Calculator</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Quantified%20Self.html" style="font-size: 12px" title="3 projects tagged Quantified Self">Quantified Self</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/YouTube.html" style="font-size: 12px" title="3 projects tagged YouTube">YouTube</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Goldeneye.html" style="font-size: 12px" title="3 projects tagged Goldeneye">Goldeneye</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Script.html" style="font-size: 12px" title="3 projects tagged Script">Script</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/DVD.html" style="font-size: 12px" title="3 projects tagged DVD">DVD</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/School.html" style="font-size: 12px" title="2 projects tagged School">School</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/amBX.html" style="font-size: 12px" title="2 projects tagged amBX">amBX</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/CSS.html" style="font-size: 12px" title="2 projects tagged CSS">CSS</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Ragnarok%20Online.html" style="font-size: 12px" title="2 projects tagged Ragnarok Online">Ragnarok Online</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Doom.html" style="font-size: 12px" title="2 projects tagged Doom">Doom</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/OCGov.html" style="font-size: 12px" title="2 projects tagged OCGov">OCGov</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Story%20Run.html" style="font-size: 12px" title="2 projects tagged Story Run">Story Run</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Max%20Payne.html" style="font-size: 12px" title="2 projects tagged Max Payne">Max Payne</a></li>
+	<li class="tag_cloud"><a href="../../../index.php/listing/tag/Android.html" style="font-size: 12px" title="2 projects tagged Android">Android</a></li>
+</ul> 	</div> 
+	<div id="projects">
+		
+<div id="MediaMoment" class="project">
+	<div class="projectHeader">
+		<div class="projectIcon"></div>
+		<div class="projectTitle">
+			<h2><a href="MediaMoment.html"><span class="projectName">MediaMoment</span></a></h2> 
+		</div>
+	</div>
+	<div class="projectDescription">A site to keep track of all of the media that I watch.  Especially geared toward keeping track of how many movies I've watched on IMDb lists. <br />
+<br />
+A long time ago I tried to mark all of the movies I had seen with IMDb's "My Movies" feature.  It was a tedious process and it seemed like there was nothing useful you could do with the end result.  It was a waste of such a cool set of data.  <br />
+<br />
+In the summer of 2007 after I finished college, I was supposed to be looking for a job.  Part of the time when I claimed to be filling out applications online, I was actually making a very simple Greasemonkey script that allowed me to look up movies on IMDb and save the data back to my own database.  I started marking movies daily as I saw them.  The initial goal was to show how many movies I had seen total and how many I had seen that were listed on the IMDb Top 250.  Despite using Facebook for a site login, it was hardcoded such that only I could use it, and I let the idea atrophy. (Thankfully, the week I moved to Irvine without a job, the UCI job fair led me to my job at Kofax.)<br />
+<br />
+I still worked on it some in 2008 and in 2009 I put a decent amount of effort into rewriting the guts in VB.NET.  The idea was that the same .NET guts could power both a website and any desktop client that I wanted to make.  Unfortunately for that idea, I changed teams at work around that time.  I had to devote too much of my energy to learning new things at work to keep attention on this project.<br />
+<br />
+In 2010 my interest in the project was revitalized and it has been complete rewritten:  <ul><li>Anyone can login with their Facebook account</li><li>Filter movie lists to movies seen, not seen, available for Netflix streaming, etc</li><li>Use groups with filters to find movies that no one (or everyone) has seen</li><li>integrates to various degrees with IMDb, Netflix, Hulu, RottenTomatoes, Metacritic, Jinni, and Amazon</li><li>Visual timeline of movies or episodes watched</li><li>Firefox Addon or Chrome Extension highlights movies you've seen on IMDb and links data on what you've watched to pages on IMDb, RottenTomoatoes, Metacritic, and Jinni</ul><br><br>
+	</div>
+		<div id="tags_2" class="projectTags">
+			<a href="../../../index.php/listing/tag/Featured.html" class="projectTag">Featured</a>			<a href="../../../index.php/listing/tag/PHP.html" class="projectTag">PHP</a>			<a href="../../../index.php/listing/tag/Quantified%20Self.html" class="projectTag">Quantified Self</a>			<a href="../../../index.php/listing/tag/web.html" class="projectTag">web</a>		</div>
+	<div class="resources">
+				
+					<h3 class="resourceHeader">Links</h3>
+			<ul>
+				<li class="link"><a href="http://movies.smknight.com/">MediaMoment</a></li><li class="link"><a href="http://movies.stephenklancher.com/recent.php?uid=3302625">My Profile on MediaMoment</a></li><li class="link"><a href="http://movies.stephenklancher.com/top.php?list=1&amp;uid=3302625">Movies I've Seen in the IMDb Top 250</a></li>				</div>
+			</ul>
+				
+		
+		
+				
+		
+		
+			</div>
+</div>
+
+	</div>
+</div>  <div id="footer"> 
+	<div id="innerFooter"><a href="http://www.stephenklancher.com/">www.stephenklancher.com</a></div> 
+</div> 
+ 
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. --> 
+<!-- Add a background image to each and use width and height to control sizing, place with absolute positioning --> 
+<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div><div id="extraDiv3"><span></span></div> 
+<div id="extraDiv4"><span></span></div><div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div> 
+ 
+ 
+</body> 
+
+<!-- Mirrored from projects.stephenklancher.com/project/id/2/MediaMoment by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Mar 2022 23:32:15 GMT -->
+</html>

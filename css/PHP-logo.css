@@ -1,0 +1,19 @@
+﻿@import url("PHP.css");
+#pageHeader {
+	color: inherit;
+	background-color: #9999cc;
+	height: 67px;
+	position: relative;
+	overflow:hidden;	
+	padding:0px;
+	margin:0px;
+
+}
+
+#pageHeader h1 { 
+	background: transparent url('../images/php.gif') no-repeat top left;
+	width: 120px;
+	height:0px;
+	padding:67px 0px 0px 0px;
+	margin:0px;
+}

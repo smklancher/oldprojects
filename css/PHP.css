@@ -1,0 +1,176 @@
+﻿
+@import url("StructureOnly.css");
+a:link {
+	color:#000099;
+}
+
+a:visited {
+	color:#000099;
+}
+
+a:active {
+	color:#0000FF;
+}
+
+a:hover {
+	color:#000099;
+}
+
+
+
+
+
+/* === Header === */
+#pageHeader {
+	background-color: #9999cc;
+
+}
+
+#pageHeader a {
+
+}
+
+#pageHeader h1 { 
+	color: #FFFFFF;
+}
+
+
+#adminFunctions {
+
+}
+
+
+/* === Show All === */
+
+#subHeader {
+	background-color: #666699;
+	color: #FFFFFF;
+	border-color: #333366;
+}
+
+
+#showAll {
+	display: none;
+}
+
+
+#showAll a:link {
+	color:#FFFFFF;
+}
+
+#showAll a:visited {
+	color:#FFFFFF;
+}
+
+#showAll a:active {
+	color:#FEFEFE;
+}
+
+#showAll a:hover {
+	color:#FEFEFE;
+}
+
+
+
+
+/* === Cloud === */
+
+#cloud {
+	background-color: #F0F0F0;
+}
+
+#cloudList {
+
+}
+
+#cloudList li {
+	list-style-type:circle;
+}
+
+.tag_cloud {
+	font-size:10px !important;
+}
+
+
+/* === Projects === */
+
+#projects {
+	
+	}
+
+#showing {
+	background-color: #EEEEFF;
+	border-color: #CCCCCC;
+
+}
+
+.project {
+	background-color: #EEEEFF;
+	border-color: #CCCCCC;
+
+}
+
+.projectDescription {
+	background-color: #FFFFFF;
+	border-color: #000000;
+
+}
+
+#editLink {
+	background-color: #CCCCCC;
+	border-color: #CCCCCC;
+
+}
+
+
+/* === Project Tags === */
+
+.projectTags {
+	background-color: #CCCCCC;
+	border-color: #000000;
+
+}
+
+.projectTag {
+
+}
+
+
+/* === Resources === */
+.resourceHeader {
+	
+}
+
+.screenshot {
+
+}
+
+
+/* === Timeline === */
+#timeline {
+
+}
+
+
+/* === Footer === */
+
+#footer {
+
+	
+	background-color: #CCCCCC;
+
+}
+
+
+#innerFooter {
+	background-color: #9999CC;
+	color: #FFFFFF;
+	border-color: #333366;
+
+}
+
+#innerFooter a {
+
+}
+
+

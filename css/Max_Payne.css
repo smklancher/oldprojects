@@ -1,0 +1,90 @@
+﻿
+
+body { font-family: sans-serif; background: #000000; color: #ffffff; }
+
+#container {
+	position:absolute;
+	color:#FFFFFF;
+	background-color:#000000;
+	left:50%;
+	width:722px;
+	margin-left:-361px;
+	overflow:auto;
+	text-align:center;
+}
+
+
+.tag_cloud {
+	display:none;
+	height:0px;
+	width:0px;
+}
+
+a {
+	color: #ff0000;
+}
+	
+#Max_Payne_Story_Run h2 { 
+	background: transparent url('../images/maxpaynestoryrunlogo.png') no-repeat top left;
+	margin-right: 25px;
+	margin-left: 25px;
+	width: 311px;
+	padding-top: 500px;
+	float:left;
+
+}
+
+#Max_Payne_2_Story_Run h2 { 
+	background: transparent url('../images/maxpayne2storyrunlogo.png') no-repeat top left;
+	margin-right: 25px;
+	margin-left: 25px;
+	width: 311px;
+	padding-top: 500px;
+	float:left;
+	/*border-style:dotted;
+	border-color:#999999;
+	border-width: 1px 1px 1px 1px;	
+	*/
+
+}
+
+#projectList {
+	
+}
+
+.project {
+
+}
+
+.projectTags {
+	display:none;
+	width:0px;
+	height:0px;
+}
+
+.projectDescription {
+	display:none;
+	width:0px;
+	height:0px;
+}
+
+#adminFunctions {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#cloud {
+	text-align:center;
+}
+
+/* === Footer === */
+
+#footer {
+	width:100%;
+	text-align:center;
+	position:relative;
+	float:left;
+}
+
+

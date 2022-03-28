@@ -1,0 +1,190 @@
+@import url("StructureOnly.css");
+
+a:link { color: #0d8ada; text-decoration: none; }
+
+a:visited { color: #0d8ada; text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+h2 {
+	color: #005abe;
+}
+
+h3 {
+	color: #005abe;
+}
+
+
+
+
+
+
+
+/* === Header === */
+
+#pageHeader {
+	background-color: #0A80D0;
+
+}
+
+#pageHeader a {
+
+}
+
+#pageHeader h1 { 
+	color: #FFFFFF;
+
+}
+
+#adminFunctions {
+	color: #FFFFFF;
+}
+
+#adminFunctions a {
+	color: #FFFFFF;
+}
+
+
+/* === Show All === */
+
+#subHeader {
+
+	background-color: #EEEEEE;
+	color: #FFFFFF;
+	border-color: #CCCCCC;
+}
+
+
+#showAll {
+	display: none;
+}
+
+
+#showAll a:link {
+	color:#FFFFFF;
+}
+
+#showAll a:visited {
+	color:#FFFFFF;
+}
+
+#showAll a:active {
+	color:#FEFEFE;
+}
+
+#showAll a:hover {
+	color:#FEFEFE;
+}
+
+
+
+
+/* === Cloud === */
+
+#cloud {
+	background-color: #FFFFFF;
+	border-right-style: none;
+}
+
+#cloudList {
+
+}
+
+#cloudList li {
+	/* list-style: disc url(/images/kofaxbullet.gif) outside; */
+}
+
+.tag_cloud {
+	font-size:10px !important;
+}
+
+
+/* === Projects === */
+
+#projects {
+	
+	}
+
+#showing {
+
+	background-color: #FFFFFF;
+	border-color: #CCCCCC;
+	border-style:none;
+}
+
+/*
+.projectName {
+	color: #005abe;
+}
+*/
+
+.project {
+	background-color: #FFFFFF;
+	border-style: none;
+}
+
+/*
+.project h2 {
+	text-align: center;
+}
+*/
+
+.projectDescription {
+	background-color: #FFFFFF;
+	border-color: #CCCCCC;
+	border-style: dotted;
+}
+
+#editLink {
+	background-color: #EEEEEE;
+	border-color: #CCCCCC;
+	border-style: none;
+
+}
+
+
+/* === Project Tags === */
+
+.projectTags {
+	background-color: #EEEEEE;
+	border-color: #000000;
+	border-style: none;
+
+}
+
+.projectTag {
+
+}
+
+
+
+/* === Resources === */
+.resourceHeader {
+	color: #005abe;
+}
+
+.screenshot {
+
+}
+
+/* === Footer === */
+
+#footer {
+	
+	background-color: #0A80D0;
+
+}
+
+
+#innerFooter {
+	background-color: #CCCCCC;
+	color: #FFFFFF;
+	border-color: #333366;
+
+}
+
+#innerFooter a {
+
+}
+
+
